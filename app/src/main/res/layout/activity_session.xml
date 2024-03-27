@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#203035"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_header">
+
+        <LinearLayout
+            android:id="@+id/toscroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/dbms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_card"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/ic_person"
+                    app:tint="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:text="DBMS" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/operating_system"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_card"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/ic_person"
+                    app:tint="@color/colorBlack"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:text="Operating System" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/computer_networks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_card"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/ic_person"
+                    app:tint="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:text="Computer Networks" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dsa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_card"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/ic_person"
+                    app:tint="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:text="DSA" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/system_design"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_card"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/ic_person"
+                    app:tint="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:text="System design" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@drawable/wave"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="left|center"
+        android:minHeight="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Select session"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
