@@ -18,7 +18,7 @@ focusLock is an Android application designed to facilitate distraction-free clas
 
 ## Visitor Count
 
-The current visitor count for this repository is: <!-- VISITOR_COUNT -->
+The current visitor count for this repository is: ![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
 ## Usage
 
 1. **Teacher Mode**:
