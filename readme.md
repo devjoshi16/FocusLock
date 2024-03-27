@@ -16,6 +16,9 @@ focusLock is an Android application designed to facilitate distraction-free clas
 3. Connect the project to your Firebase account by adding your `google-services.json` file to the app module.
 4. Build and run the application on your Android device.
 
+## Visitor Count
+
+The current visitor count for this repository is: <!-- VISITOR_COUNT -->
 ## Usage
 
 1. **Teacher Mode**:
