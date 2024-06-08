@@ -1,4 +1,4 @@
-# FocusLock
+# focusLock
 
 focusLock is an Android application designed to facilitate distraction-free classrooms by utilizing WiFi Direct communication technology. The application acts as a tool for teachers to lock students' phones during class sessions while automatically recording attendance through Firebase Cloud Database.
 
@@ -15,6 +15,7 @@ focusLock is an Android application designed to facilitate distraction-free clas
 2. Open the project in Android Studio.
 3. Connect the project to your Firebase account by adding your `google-services.json` file to the app module.
 4. Build and run the application on your Android device.
+
 
 ## Usage
 
@@ -45,9 +46,8 @@ Contributions to focusLock are welcome! Here's how you can contribute:
 - Commit your changes (`git commit -am 'Add some feature'`).
 - Push to the branch (`git push origin feature/NewFeature`).
 - Create a new Pull Request.
-
+  
 ## Visitor Count
-
 The current visitor count for this repository is: ![Visitor Count](https://profile-counter.glitch.me/{devjoshi16}/count.svg)
 
 ## Implementations Images
